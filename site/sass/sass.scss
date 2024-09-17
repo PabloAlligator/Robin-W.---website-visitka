@@ -9,6 +9,7 @@ $background-color: linear-gradient(to right,
 $Purple-btn: #5221E6;
 $text: #FFFFFF;
 $gray: #8491A0;
+$black: #000000;
 
 
 .header {
@@ -483,6 +484,45 @@ $gray: #8491A0;
     }
 }
 
+.section__five {
+    width: 1440px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $black;
+    &-list {
+        width: 1440px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid red;
+        & li {
+            list-style: none;
+            & button {
+                width: 340px;
+                height: 138px;
+                border: 1px solid $black;
+                background-color: $black;
+                transition: background-color 0.3s ease;
+                & h2 {
+                    font-size: 24px;
+                    line-height: 30px;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    color: $gray;
+                }
+            }
+            & button:hover {
+                background-color: rgb(54, 54, 54);
+            }
+            & button:active {
+                background-color: #464646;
+            }
+        }
+    }
+}
 
 
 

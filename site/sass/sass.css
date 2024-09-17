@@ -441,6 +441,45 @@
   margin-left: 0px;
 }
 
+.section__five {
+  width: 1440px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+.section__five-list {
+  width: 1440px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section__five-list li {
+  list-style: none;
+}
+.section__five-list li button {
+  width: 340px;
+  height: 138px;
+  border: 1px solid #000000;
+  background-color: #000000;
+  transition: background-color 0.3s ease;
+}
+.section__five-list li button h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #8491A0;
+}
+.section__five-list li button:hover {
+  background-color: rgb(54, 54, 54);
+}
+.section__five-list li button:active {
+  background-color: #464646;
+}
+
 @font-face {
   font-family: Bebas Neue;
   src: url(../fonts/BebasNeue-Regular.ttf);
