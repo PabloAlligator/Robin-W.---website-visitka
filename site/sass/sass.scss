@@ -8,7 +8,8 @@ $background-color: linear-gradient(to right,
         rgb(41, 37, 56) 35% 100%);
 $Purple-btn: #5221E6;
 $text: #FFFFFF;
-$MainFont: Bebas Neue;
+$gray: #8491A0;
+
 
 .header {
     width: 1440px;
@@ -34,6 +35,19 @@ $MainFont: Bebas Neue;
 
         & li {
             list-style: none;
+            .header__btn {
+                width: 147px;
+                height: 88px;
+                padding: 32px, 24px, 32px, 24px;
+                background-color: rgb(41, 37, 56);
+                transition: 0.3s ease;
+            }
+            .header__btn:hover, :focus {
+                background-color: #5221E6;
+            }
+            .header__btn:active {
+                background-color: #361796;
+            }
         }
     }
 
@@ -51,11 +65,13 @@ $MainFont: Bebas Neue;
     &__btn:hover {
         background-color: $Purple-btn;
     }
+
+    &__btn:active {
+        background-color: #361796;
+    }
 }
 
-&__btn:active {
-    background-color: #361796;
-}
+
 
 //section__one//
 
@@ -63,14 +79,418 @@ $MainFont: Bebas Neue;
     width: 1440px;
     height: 814px;
     top: 86px;
-    border: 1px solid red;
+    // border: 1px solid red;
     background-image: $background-color;
-    
+    &-txt-img {
+        width: 1440px;
+        height: 814px;
+        position: relative;
+        display: flex;
+        // border: 1px solid white;
+    }
+    &-txt-img img {
+        margin-left: 0px;
+        margin-top: 80px;
+        z-index: 1;
+        position: absolute;
+    }
+    &-txt {
+        display: flex;
+        flex-direction: column;
+        width: 738px;
+        height: 282px;
+        margin-top: 221px;
+        margin-right: 40px;
+        z-index: 2;
+    }
+    &-txt h2 {
+        font-family: sen;
+        font-weight: 700;
+        font-size: 78px;
+        line-height: 93.84px;
+        color: $text;
+        span {
+            color: $gray;
+        }
+    }
+    &-txt p {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: $text;
+    }
 }
+
+
+// section__two
+
+.section__two {
+    width: 1440px;
+    height: 715px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    // border: 1px solid red;
+    
+    &-text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-left: 72px;
+        margin-top: 120px;
+        // border: 1px solid orange;
+        padding-bottom: 40px;
+    }
+    &-text p{
+        font-family: sen;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;
+        margin-left: 0px;
+    }
+    &-text h3 {
+        font-family: sen;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 66px;
+        color: $text;
+    }
+    &-boxs {
+        display: flex;
+        justify-content: space-around;
+        gap: 24px;
+        // border: 1px solid yellow;
+    }
+    &-boxs-left {
+        width: 416px;
+        height: 247px;
+        // border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+    }
+    &-boxs-left h3 {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 117px;
+        line-height: 141px;
+        color: $gray;
+        margin-left: 0px;
+    }
+    &-boxs-left h4 {
+        font-family: sen;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: $text;
+        margin-left: 0px;
+        span {
+            color: #3CC74E;
+        }
+    }
+    &-boxs-left p{
+        font-family: sen;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;
+        margin-left: 0px;
+    }
+    &-boxs-mdl {
+        display: flex;
+        flex-direction: column;
+        width: 416px;
+        height: 247px;
+        // border: 1px solid green;
+    }
+    &-boxs-mdl h3 {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 117px;
+        line-height: 141px;
+        color: $gray;
+        margin-left: 0px;
+    }
+    &-boxs-mdl h4 {
+        font-family: sen;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: $text;
+        margin-left: 0px;
+        span {
+            color: #609BFF;
+        }
+    }
+    &-boxs-mdl p {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;
+        margin-left: 0px;
+    }
+    &-boxs-right h3 {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 117px;
+        line-height: 141px;
+        color: $gray;
+        margin-left: 0px;
+    }
+    &-boxs-right h4 {
+        font-family: sen;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: $text;
+        margin-left: 0px;
+        span {
+            color: #E95D90;
+        }
+    }
+    &-boxs-right p {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;
+        margin-left: 0px;
+    }
+}
+
+
+.section__three {
+    width: 1440px;
+    height: 600px;
+    background-color: #FFFFFF;
+    // border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    
+
+    &-txt {
+        width: 720px;
+        height: 599px;
+        background-color: #FFF3E4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        & h2 {
+            margin-bottom: 10px;
+            font-family: sen;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 66px;
+            left: 0px;
+            margin-left: 72px;
+        }
+        & p {
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+            font-family: sen;
+            font-size: 18px;
+            line-height: 27px;
+            font-weight: 400;
+            margin-left: 72px;
+        }
+        & a {
+            font-size: 16px;
+            font-family: sen;
+            font-weight: 400;
+            width: 116px;
+            height: 28px;
+            line-height: 24px;
+            border-bottom: 1px solid $gray;
+            color: #181823;
+            text-decoration: none;
+            margin-left: 72px;
+            transition: 0.3s ease;
+        }
+        & a:hover, :focus {
+            color: $Purple-btn;
+        }
+        & a:active {
+            color: #361796;
+        }
+    }
+    & figure {
+        display: flex;
+        width: 720px;
+        height: 599px;
+        // border: 2px solid red;
+
+    }
+}
+.section__four {
+    display: flex;
+    width: 1440px;
+    height: 664px;
+    background-color: black;
+    // border: 1px solid red;
+    &-big-block {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 416px;
+        height: 225px;
+        margin-top: 120px;
+        margin-left: 72px;
+        gap: 24px;
+        // border: 1px solid orange;
+    }
+    &-big-block h2 {
+        font-family: sen;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 66px;
+        color: $text;
+        margin-left: 0px;
+    }
+    &-big-block p {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: $gray;
+        margin-left: 0px;
+    }
+    &-FB {
+        display: flex;
+        flex-wrap: wrap;
+        width: 856px;
+        height: 400px;
+        gap: 24px;
+    }
+    &-FB-TL {
+        display: flex;
+        flex-direction: column;
+        width: 416px;
+        height: 176px;
+        // border: 1px solid yellow;
+        margin-top: 120px;
+        
+    }
+    &-FB-TL img {
+        margin-left: 0px;
+    }
+    &-FB-TL h2 {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: $text;
+        margin-left: 0px;
+    }
+    &-FB-TL p {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;
+        margin-left: 0px;
+    }
+    &-FB-TR {
+        display: flex;
+        flex-direction: column;
+        width: 416px;
+        height: 176px;
+        // border: 1px solid yellow;
+        margin-top: 120px;
+        // padding-bottom: 48px;
+    }
+    &-FB-TR img {
+        margin-left: 0px;
+    }
+    &-FB-TR h2 {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: $text;
+        margin-left: 0px;
+    }
+    &-FB-TR p {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;
+        margin-left: 0px;
+    }
+    &-FB-BL {
+        width: 416px;
+        height: 200px;
+        font-family: sen;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;
+        // border: 1px solid yellow;
+        margin-top: 24px;
+    }
+    &-FB-BL img {
+        margin-left: 0px;
+    }
+    &-FB-BL h2 {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: $text;
+        margin-left: 0px;
+    }
+    &-FB-BL p {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;margin-left: 0px;
+        margin-left: 0px;
+    }
+    &-FB-BR {
+        width: 416px;
+        height: 176px;
+        font-family: sen;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;
+        // border: 1px solid yellow;
+        margin-bottom: 120px;
+        margin-top: 24px;
+    }
+    &-FB-BR img {
+        margin-left: 0px;
+    }
+    &-FB-BR h2 {
+        font-family: sen;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: $text;
+        margin-left: 0px;
+    }
+    &-FB-BR p{
+        font-family: sen;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray;
+        margin-left: 0px;
+    }
+}
+
 
 
 
 @font-face {
     font-family: Bebas Neue;
     src: url(../fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: sen;
+    src: url(../fonts/Sen-VariableFont_wght.ttf);
 }
