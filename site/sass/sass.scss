@@ -36,6 +36,7 @@ $black: #000000;
 
         & li {
             list-style: none;
+
             .header__btn {
                 width: 147px;
                 height: 88px;
@@ -43,9 +44,12 @@ $black: #000000;
                 background-color: rgb(41, 37, 56);
                 transition: 0.3s ease;
             }
-            .header__btn:hover, :focus {
+
+            .header__btn:hover,
+            :focus {
                 background-color: #5221E6;
             }
+
             .header__btn:active {
                 background-color: #361796;
             }
@@ -82,6 +86,7 @@ $black: #000000;
     top: 86px;
     // border: 1px solid red;
     background-image: $background-color;
+
     &-txt-img {
         width: 1440px;
         height: 814px;
@@ -89,12 +94,14 @@ $black: #000000;
         display: flex;
         // border: 1px solid white;
     }
+
     &-txt-img img {
         margin-left: 0px;
         margin-top: 80px;
         z-index: 1;
         position: absolute;
     }
+
     &-txt {
         display: flex;
         flex-direction: column;
@@ -104,16 +111,19 @@ $black: #000000;
         margin-right: 40px;
         z-index: 2;
     }
+
     &-txt h2 {
         font-family: sen;
         font-weight: 700;
         font-size: 78px;
         line-height: 93.84px;
         color: $text;
+
         span {
             color: $gray;
         }
     }
+
     &-txt p {
         font-family: sen;
         font-weight: 400;
@@ -133,7 +143,7 @@ $black: #000000;
     flex-direction: column;
     background-color: black;
     // border: 1px solid red;
-    
+
     &-text {
         display: flex;
         flex-direction: column;
@@ -143,7 +153,8 @@ $black: #000000;
         // border: 1px solid orange;
         padding-bottom: 40px;
     }
-    &-text p{
+
+    &-text p {
         font-family: sen;
         font-weight: 700;
         font-size: 16px;
@@ -151,6 +162,7 @@ $black: #000000;
         color: $gray;
         margin-left: 0px;
     }
+
     &-text h3 {
         font-family: sen;
         font-weight: 700;
@@ -158,12 +170,14 @@ $black: #000000;
         line-height: 66px;
         color: $text;
     }
+
     &-boxs {
         display: flex;
         justify-content: space-around;
         gap: 24px;
         // border: 1px solid yellow;
     }
+
     &-boxs-left {
         width: 416px;
         height: 247px;
@@ -171,6 +185,7 @@ $black: #000000;
         display: flex;
         flex-direction: column;
     }
+
     &-boxs-left h3 {
         font-family: sen;
         font-weight: 400;
@@ -179,6 +194,7 @@ $black: #000000;
         color: $gray;
         margin-left: 0px;
     }
+
     &-boxs-left h4 {
         font-family: sen;
         font-weight: 700;
@@ -186,11 +202,13 @@ $black: #000000;
         line-height: 36px;
         color: $text;
         margin-left: 0px;
+
         span {
             color: #3CC74E;
         }
     }
-    &-boxs-left p{
+
+    &-boxs-left p {
         font-family: sen;
         font-weight: 400;
         font-size: 16px;
@@ -198,6 +216,7 @@ $black: #000000;
         color: $gray;
         margin-left: 0px;
     }
+
     &-boxs-mdl {
         display: flex;
         flex-direction: column;
@@ -205,6 +224,7 @@ $black: #000000;
         height: 247px;
         // border: 1px solid green;
     }
+
     &-boxs-mdl h3 {
         font-family: sen;
         font-weight: 400;
@@ -213,6 +233,7 @@ $black: #000000;
         color: $gray;
         margin-left: 0px;
     }
+
     &-boxs-mdl h4 {
         font-family: sen;
         font-weight: 700;
@@ -220,10 +241,12 @@ $black: #000000;
         line-height: 36px;
         color: $text;
         margin-left: 0px;
+
         span {
             color: #609BFF;
         }
     }
+
     &-boxs-mdl p {
         font-family: sen;
         font-weight: 400;
@@ -232,6 +255,7 @@ $black: #000000;
         color: $gray;
         margin-left: 0px;
     }
+
     &-boxs-right h3 {
         font-family: sen;
         font-weight: 400;
@@ -240,6 +264,7 @@ $black: #000000;
         color: $gray;
         margin-left: 0px;
     }
+
     &-boxs-right h4 {
         font-family: sen;
         font-weight: 700;
@@ -247,10 +272,12 @@ $black: #000000;
         line-height: 36px;
         color: $text;
         margin-left: 0px;
+
         span {
             color: #E95D90;
         }
     }
+
     &-boxs-right p {
         font-family: sen;
         font-weight: 400;
@@ -269,7 +296,7 @@ $black: #000000;
     // border: 1px solid red;
     display: flex;
     justify-content: space-between;
-    
+
 
     &-txt {
         width: 720px;
@@ -278,7 +305,7 @@ $black: #000000;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
         & h2 {
             margin-bottom: 10px;
             font-family: sen;
@@ -288,6 +315,7 @@ $black: #000000;
             left: 0px;
             margin-left: 72px;
         }
+
         & p {
             margin-bottom: 10px;
             letter-spacing: 1px;
@@ -297,6 +325,7 @@ $black: #000000;
             font-weight: 400;
             margin-left: 72px;
         }
+
         & a {
             font-size: 16px;
             font-family: sen;
@@ -310,13 +339,17 @@ $black: #000000;
             margin-left: 72px;
             transition: 0.3s ease;
         }
-        & a:hover, :focus {
+
+        & a:hover,
+        :focus {
             color: $Purple-btn;
         }
+
         & a:active {
             color: #361796;
         }
     }
+
     & figure {
         display: flex;
         width: 720px;
@@ -325,11 +358,13 @@ $black: #000000;
 
     }
 }
+
 .section__four {
     display: flex;
     width: 1440px;
     height: 664px;
     background-color: black;
+
     // border: 1px solid red;
     &-big-block {
         display: flex;
@@ -342,6 +377,7 @@ $black: #000000;
         gap: 24px;
         // border: 1px solid orange;
     }
+
     &-big-block h2 {
         font-family: sen;
         font-weight: 700;
@@ -350,6 +386,7 @@ $black: #000000;
         color: $text;
         margin-left: 0px;
     }
+
     &-big-block p {
         font-family: sen;
         font-weight: 400;
@@ -358,6 +395,7 @@ $black: #000000;
         color: $gray;
         margin-left: 0px;
     }
+
     &-FB {
         display: flex;
         flex-wrap: wrap;
@@ -365,6 +403,7 @@ $black: #000000;
         height: 400px;
         gap: 24px;
     }
+
     &-FB-TL {
         display: flex;
         flex-direction: column;
@@ -372,11 +411,13 @@ $black: #000000;
         height: 176px;
         // border: 1px solid yellow;
         margin-top: 120px;
-        
+
     }
+
     &-FB-TL img {
         margin-left: 0px;
     }
+
     &-FB-TL h2 {
         font-family: sen;
         font-weight: 400;
@@ -385,6 +426,7 @@ $black: #000000;
         color: $text;
         margin-left: 0px;
     }
+
     &-FB-TL p {
         font-family: sen;
         font-weight: 400;
@@ -393,6 +435,7 @@ $black: #000000;
         color: $gray;
         margin-left: 0px;
     }
+
     &-FB-TR {
         display: flex;
         flex-direction: column;
@@ -402,9 +445,11 @@ $black: #000000;
         margin-top: 120px;
         // padding-bottom: 48px;
     }
+
     &-FB-TR img {
         margin-left: 0px;
     }
+
     &-FB-TR h2 {
         font-family: sen;
         font-weight: 400;
@@ -413,6 +458,7 @@ $black: #000000;
         color: $text;
         margin-left: 0px;
     }
+
     &-FB-TR p {
         font-family: sen;
         font-weight: 400;
@@ -421,6 +467,7 @@ $black: #000000;
         color: $gray;
         margin-left: 0px;
     }
+
     &-FB-BL {
         width: 416px;
         height: 200px;
@@ -432,9 +479,11 @@ $black: #000000;
         // border: 1px solid yellow;
         margin-top: 24px;
     }
+
     &-FB-BL img {
         margin-left: 0px;
     }
+
     &-FB-BL h2 {
         font-family: sen;
         font-weight: 400;
@@ -443,14 +492,17 @@ $black: #000000;
         color: $text;
         margin-left: 0px;
     }
+
     &-FB-BL p {
         font-family: sen;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        color: $gray;margin-left: 0px;
+        color: $gray;
+        margin-left: 0px;
         margin-left: 0px;
     }
+
     &-FB-BR {
         width: 416px;
         height: 176px;
@@ -463,9 +515,11 @@ $black: #000000;
         margin-bottom: 120px;
         margin-top: 24px;
     }
+
     &-FB-BR img {
         margin-left: 0px;
     }
+
     &-FB-BR h2 {
         font-family: sen;
         font-weight: 400;
@@ -474,7 +528,8 @@ $black: #000000;
         color: $text;
         margin-left: 0px;
     }
-    &-FB-BR p{
+
+    &-FB-BR p {
         font-family: sen;
         font-weight: 400;
         font-size: 16px;
@@ -491,21 +546,26 @@ $black: #000000;
     align-items: center;
     justify-content: center;
     background-color: $black;
+
     &-list {
         width: 1440px;
         height: 140px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 0px;
+
         // border: 1px solid red;
         & li {
             list-style: none;
+
             & button {
                 width: 340px;
                 height: 138px;
                 border: 1px solid $black;
                 background-color: $black;
                 transition: background-color 0.3s ease;
+
                 & h2 {
                     font-size: 24px;
                     line-height: 30px;
@@ -514,9 +574,11 @@ $black: #000000;
                     color: $gray;
                 }
             }
+
             & button:hover {
                 background-color: rgb(54, 54, 54);
             }
+
             & button:active {
                 background-color: #464646;
             }
@@ -524,12 +586,183 @@ $black: #000000;
     }
 }
 
+.section__six {
+    width: 1440px;
+    height: 2201px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 1px solid orange;
+
+    &-text {
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid yellow;
+        margin-top: 120px;
+        margin-left: 72px;
+        margin-bottom: 80px;
+
+        & p {
+            font-family: sen;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: $gray;
+        }
+
+        & h3 {
+            font-family: sen;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 66px;
+            color: $text;
+        }
+    }
+
+    &-block-TL {
+        width: 636px;
+        height: 830px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+        &-text {
+            width: 636px;
+            height: 210px;
+            background-color: #181823;
+        }
+
+        & h4 {
+            font-family: sen;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: $text;
+            margin-top: 40px;
+            margin-left: 32px;
+        }
+
+        & p {
+            font-family: sen;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: $gray;
+            margin-left: 32px;
+        }
+    }
+
+    &-block-BL {
+        width: 636px;
+        height: 830px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+        &-text {
+            width: 636px;
+            height: 210px;
+            background-color: #181823;
+        }
+
+        & h4 {
+            font-family: sen;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: $text;
+            margin-top: 40px;
+            margin-left: 32px;
+        }
+
+        & p {
+            font-family: sen;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: $gray;
+            margin-left: 32px;
+        }
+    }
+
+    &-block-TR {
+        width: 636px;
+        height: 830px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 120px;
+        margin-right: 72px;
+
+        &-text {
+            width: 636px;
+            height: 210px;
+            background-color:#181823;
+        }
+
+        & h4 {
+            font-family: sen;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: $text;
+            margin-top: 40px;
+            margin-left: 32px;
+        }
+
+        & p {
+            font-family: sen;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: $gray;
+            margin-left: 32px;
+        }
+    }
+
+    // &-block-BR {
+    //     width: 636px;
+    //     height: 830px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-self: center;
+
+    //     &-text {
+    //         width: 636px;
+    //         height: 210px;
+
+    //     & h4 {
+    //         font-family: sen;
+    //         font-weight: 700;
+    //         font-size: 24px;
+    //         line-height: 36px;
+    //         color: $text;
+    //         margin-top: 40px;
+    //         margin-left: 32px;
+    //     }
+
+    //     & p {
+    //         font-family: sen;
+    //         font-weight: 400;
+    //         font-size: 18px;
+    //         line-height: 27px;
+    //         color: $gray;
+    //         margin-left: 32px;
+    //     }
+    // }
+}
+
+
+
 
 
 @font-face {
     font-family: Bebas Neue;
     src: url(../fonts/BebasNeue-Regular.ttf);
 }
+
 @font-face {
     font-family: sen;
     src: url(../fonts/Sen-VariableFont_wght.ttf);
