@@ -241,7 +241,7 @@
 }
 .section__three-txt {
   width: 720px;
-  height: 599px;
+  height: 600px;
   background-color: #FFF3E4;
   display: flex;
   flex-direction: column;
@@ -278,8 +278,7 @@
   margin-left: 72px;
   transition: 0.3s ease;
 }
-.section__three-txt a:hover,
-.section__three-txt :focus {
+.section__three-txt a:hover, .section__three-txt :focus {
   color: #5221E6;
 }
 .section__three-txt a:active {
@@ -490,13 +489,11 @@
   flex-direction: column;
   flex-wrap: wrap;
   background-color: black;
-  border: 1px solid orange;
 }
 .section__six-text {
   gap: 8px;
   display: flex;
   flex-direction: column;
-  border: 1px solid yellow;
   margin-top: 120px;
   margin-left: 72px;
   margin-bottom: 80px;
@@ -507,6 +504,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #8491A0;
+  margin-left: 0px;
 }
 .section__six-text h3 {
   font-family: sen;
@@ -603,6 +601,172 @@
   line-height: 27px;
   color: #8491A0;
   margin-left: 32px;
+}
+.section__six-block-BR {
+  width: 636px;
+  height: 830px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.section__six-block-BR-text {
+  width: 636px;
+  height: 210px;
+  background-color: #181823;
+}
+.section__six-block-BR h4 {
+  font-family: sen;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-left: 32px;
+}
+.section__six-block-BR p {
+  font-family: sen;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #8491A0;
+  margin-left: 32px;
+}
+.section__six-button {
+  width: 247px;
+  height: 75px;
+  border: 1px solid #5221E6;
+  background-color: black;
+  padding: 24px 32px 24px 32px;
+  margin-top: 91px;
+  margin-left: 219px;
+  transition: background-color 0.3s ease;
+}
+.section__six-button p {
+  color: #FFFFFF;
+  font-family: sen;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+.section__six-button:hover {
+  background-color: #464646;
+}
+.section__six-button:active {
+  background-color: #5221E6;
+}
+
+.section__seven {
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+.section__seven-text {
+  width: 720px;
+  height: 600px;
+  background-color: #FBE4FF;
+}
+.section__seven-text h2 {
+  font-family: sen;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  color: #181823;
+  margin-top: 120px;
+  margin-left: 72px;
+  padding-bottom: 24px;
+}
+.section__seven-text p {
+  font-family: sen;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5B6876;
+  margin-left: 72px;
+  padding-bottom: 134px;
+}
+.section__seven-text a {
+  text-decoration: none;
+  font-family: sen;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #181823;
+  border-bottom: 1px solid #8491A0;
+  margin-left: 72px;
+}
+
+.section__eight {
+  width: 1440px;
+  height: 1248px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  background-color: black;
+  gap: 120px;
+}
+.section__eight-text {
+  width: 636px;
+  height: 212px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-left: 182px;
+}
+.section__eight-text h2 {
+  font-family: sen;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  color: #FFFFFF;
+  margin-left: 0px;
+  padding-bottom: 24px;
+}
+.section__eight-text p {
+  font-family: sen;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #8491A0;
+  margin-left: 0px;
+  padding-bottom: 40px;
+}
+.section__eight-text a {
+  font-family: sen;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  transition: color 0.3s ease;
+  margin-left: 0px;
+  text-decoration: none;
+  border-bottom: 1px solid whitesmoke;
+}
+.section__eight-text a:link {
+  color: white;
+}
+.section__eight-text a:visited {
+  color: white;
+}
+.section__eight-text a:focus {
+  color: white;
+}
+.section__eight-text a:hover {
+  color: white;
+}
+.section__eight-text a:active {
+  color: white;
+}
+.section__eight-img {
+  margin-right: 182px;
+  margin-left: 182px;
+  margin-bottom: 120px;
+}
+.section__eight-img hr {
+  width: 1076px;
+  height: 36px;
+  background-color: #181823;
+  border-radius: 8px 8px 0px 0px;
 }
 
 @font-face {

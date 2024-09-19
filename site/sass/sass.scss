@@ -289,6 +289,8 @@ $black: #000000;
 }
 
 
+// section__three
+
 .section__three {
     width: 1440px;
     height: 600px;
@@ -300,7 +302,7 @@ $black: #000000;
 
     &-txt {
         width: 720px;
-        height: 599px;
+        height: 600px;
         background-color: #FFF3E4;
         display: flex;
         flex-direction: column;
@@ -340,8 +342,7 @@ $black: #000000;
             transition: 0.3s ease;
         }
 
-        & a:hover,
-        :focus {
+        & a:hover,:focus {
             color: $Purple-btn;
         }
 
@@ -358,6 +359,8 @@ $black: #000000;
 
     }
 }
+
+// section__four
 
 .section__four {
     display: flex;
@@ -539,6 +542,10 @@ $black: #000000;
     }
 }
 
+
+// section__five
+
+
 .section__five {
     width: 1440px;
     height: 140px;
@@ -593,13 +600,13 @@ $black: #000000;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: black;
-    border: 1px solid orange;
+    // border: 1px solid orange;
 
     &-text {
         gap: 8px;
         display: flex;
         flex-direction: column;
-        border: 1px solid yellow;
+        // border: 1px solid yellow;
         margin-top: 120px;
         margin-left: 72px;
         margin-bottom: 80px;
@@ -610,6 +617,7 @@ $black: #000000;
             font-size: 16px;
             line-height: 24px;
             color: $gray;
+            margin-left: 0px;
         }
 
         & h3 {
@@ -722,39 +730,176 @@ $black: #000000;
         }
     }
 
-    // &-block-BR {
-    //     width: 636px;
-    //     height: 830px;
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-self: center;
+    &-block-BR {
+        width: 636px;
+        height: 830px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
 
-    //     &-text {
-    //         width: 636px;
-    //         height: 210px;
+       &-text {
+        width: 636px;
+        height: 210px;
+        background-color: #181823;
+       }
 
-    //     & h4 {
-    //         font-family: sen;
-    //         font-weight: 700;
-    //         font-size: 24px;
-    //         line-height: 36px;
-    //         color: $text;
-    //         margin-top: 40px;
-    //         margin-left: 32px;
-    //     }
+        & h4 {
+            font-family: sen;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: $text;
+            margin-top: 40px;
+            margin-left: 32px;
+        }
 
-    //     & p {
-    //         font-family: sen;
-    //         font-weight: 400;
-    //         font-size: 18px;
-    //         line-height: 27px;
-    //         color: $gray;
-    //         margin-left: 32px;
-    //     }
-    // }
+        & p {
+            font-family: sen;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: $gray;
+            margin-left: 32px;
+        }
+    }
+    &-button {
+        width: 247px;
+        height: 75px;
+        border: 1px solid #5221E6;
+        background-color: black;
+        padding: 24px 32px 24px 32px;
+        margin-top: 91px;
+        margin-left: 219px;
+        transition: background-color 0.3s ease;
+        & p {
+            color: $text;
+            font-family: sen;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+    &-button:hover {
+       background-color: #464646;
+    }
+    &-button:active {
+        background-color: #5221E6;
+    }
+
 }
+.section__seven {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    &-text {
+        width: 720px;
+        height: 600px;
+        background-color: #FBE4FF;
+        & h2 {
+            font-family: sen;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 66px;
+            color: #181823;
+            margin-top: 120px;
+            margin-left: 72px;
+            padding-bottom: 24px;
+        }
+        p {
+            font-family: sen;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #5B6876;
+            margin-left: 72px;
+            padding-bottom: 134px;
+        }
+        & a{
+            text-decoration: none;
+            font-family: sen;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #181823;
+            border-bottom: 1px solid #8491A0;
+            margin-left: 72px;
+        }
+    }
+}
+.section__eight {
+    width: 1440px;
+    height: 1248px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    background-color: black;
+    gap: 120px;
+    &-text {
+        width: 636px;
+        height: 212px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+        margin-left: 182px;
 
-
+        & h2 {
+            font-family: sen;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 66px;
+            color: $text;
+            margin-left: 0px;
+            padding-bottom: 24px;
+        }
+        & p {
+            font-family: sen;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: $gray;
+            margin-left: 0px;
+            padding-bottom: 40px;
+        }
+        & a {
+            font-family: sen;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $text;
+            transition: color 0.3s ease;
+            margin-left: 0px;
+            text-decoration: none;
+            border-bottom: 1px solid whitesmoke;
+        }
+        & a:link {
+            color: white;
+        }
+        & a:visited {
+            color: white;
+        }
+        & a:focus {
+            color: white;
+        }
+        & a:hover {
+            color: white;
+        }
+        & a:active {
+            color: white;
+        }
+    }
+    &-img {
+        margin-right: 182px;
+        margin-left: 182px;
+        margin-bottom: 120px;
+        & hr{
+            width: 1076px;
+            height: 36px;
+            background-color: #181823;
+            border-radius: 8px 8px 0px 0px;
+        }
+    }
+}
 
 
 
